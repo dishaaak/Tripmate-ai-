@@ -89,11 +89,6 @@ tripmate-ai/
    streamlit run ui/app.py
    ```
 
-
-
-The test mocks both external calls (Gemini, OpenWeatherMap) so it runs offline without API keys —
-it validates the pipeline wiring, not the LLM's output quality.
-
 ## Known limitations
 
 - **Weather coverage**: OpenWeatherMap's free-tier forecast only covers ~5 days out. Trips (or
