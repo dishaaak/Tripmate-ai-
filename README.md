@@ -45,7 +45,7 @@ Destination Agent   Budget Agent      Weather Service
 
 | Component | Tool |
 |---|---|
-| LLM | Google Gemini `gemini-1.5-flash`, called via plain REST (`requests`), free tier |
+| LLM | Google Gemini `gemini-3.5-flash`, called via plain REST (`requests`), free tier |
 | Orchestration | Hand-rolled sequential Python (no framework — the flow is linear, so LangGraph/CrewAI would add complexity without adding capability) |
 | Weather | OpenWeatherMap free-tier forecast API (real data, not LLM-guessed) |
 | Frontend | Streamlit |
