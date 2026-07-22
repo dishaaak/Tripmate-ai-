@@ -117,9 +117,9 @@ it validates the pipeline wiring, not the LLM's output quality.
   latency is additive — report this honestly in an evaluation section rather than only reporting
   best-case timing.
 
-## Contact
+##TEAM MEMBERS
 
-Project Link: [https://github.com/dishaaak/askmydocs](https://github.com/dishaaak/askmydocs)
+Project Link: https://github.com/dishaaak/Tripmate-AI
 
 Team: [Shashwat] · [Ritika] · [Harshita]· [Mayuri] · [Dishaa]
 
