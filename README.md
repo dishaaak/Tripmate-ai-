@@ -89,11 +89,7 @@ tripmate-ai/
    streamlit run ui/app.py
    ```
 
-## Running tests
 
-```bash
-python -m pytest tests/
-```
 
 The test mocks both external calls (Gemini, OpenWeatherMap) so it runs offline without API keys —
 it validates the pipeline wiring, not the LLM's output quality.
