@@ -1,0 +1,8 @@
+# Copy this file to .env and fill in your keys. Never commit the real .env.
+
+# Free key from https://aistudio.google.com/apikey (no card required)
+GEMINI_API_KEY=your_api_key
+
+# Optional: without this, weather falls back to a clearly-labeled
+# "unavailable" placeholder instead of guessing.
+OWM_API_KEY=your_api_key
