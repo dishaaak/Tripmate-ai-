@@ -7,14 +7,7 @@ agents — each with a single job, passing structured output to the next — and
 destination overview, a budget breakdown, a weather-aware day-by-day itinerary, and a packing
 checklist.
 
-## Why "multi-agent" and not one big prompt
 
-Each stage below is a separate function with a single responsibility and a structured
-input/output contract (`shared_schema.py`). No agent invents fields outside that schema. This is
-what makes the system multi-agent rather than "one LLM call with a long prompt" — it also makes
-each stage independently testable and keeps hallucination risk contained to the stage it
-originates in (e.g. the itinerary agent is restricted to only using attractions the destination
-agent already found).
 
 ```
 User input (plain language trip request)
